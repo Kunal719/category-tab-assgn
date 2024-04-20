@@ -108,7 +108,6 @@ categoryBtns.forEach(btn => {
         const category = btn.textContent.trim();
         renderProducts(category);
 
-        // Toggle active class on category buttons
         categoryBtns.forEach(btn => {
             btn.classList.remove('active');
             const icon = btn.querySelector('.category-icon');
